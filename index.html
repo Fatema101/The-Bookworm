@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>The Bookworm</title>
+</head>
+<body>
+             <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-success ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.jpg" alt="" width="35">
+              </a>
+              <h3 class="m-2 effect" style="color:azure">The Bookworm</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active effect" style="color:azure" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle effect" style="color:azure" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Buy Book
+                </a> 
+                
+                <ul class="dropdown-menu bg-success " aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item effect " style="color:azure"  href="new_book.html">New book </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item effect" style="color:azure" href="old_book.html">Old Book</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active effect" style="color:azure" href="sell_book.html">Sell Book</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- carousel -->
+      <div class="container slider gap">
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="images/p5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/p4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/p3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/p7.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+
+      
+    <!-- card -->
+
+    <div class="outer">
+      <div class="animation col-6"><h3 style="text-align:center; padding-top:7px">Fiction</h3></div>
+      <div class="container inner">
+        <div class="row ">
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3  ">
+            <div class="card " style="width: 180px; height:fit-content">
+              <img src="images/f1.jpg" class="card-img-top card-image img-fluid" style="width: 100%; height:70%">
+              <div class="card-body">
+                <h6 class="card-title align">সেরিনা</h6>
+                <h6 class="card-title align">মুহম্মদ জাফর ইকবাল</h6>
+                <h6 class="align1"><bold>Tk.200</bold></h6>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="card " style="width: 180px; height:fit-content;">
+              <img src="images/f2_2.jpg" class="card-img-top card-image img-fluid" style="width: 100%; height:70%">
+              <div class="card-body">
+                <h6 class="card-title align">চাঁদের পাহাড়</h6>
+                <h6 class="card-title align">বিভূতিভূষণ বন্দ্যোপাধ্যায়</h6>
+                <h6 class="align1"><bold>Tk.250</bold></h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="card " style="width: 180px; height:fit-content">
+              <img src="images/f3_3.jpg" class="card-img-top card-image img-fluid" style="width: 100%; height:70%">
+              <div class="card-body">
+                <h6 class="card-title align">স্টার ওয়ারস</h6>
+                <h6 class="card-title align">রকিব হাসান</h6>
+                <h6 class="align1"><bold>Tk.200</bold></h6>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="card " style="width: 180px; height:fit-content">
+              <img src="images/f4_4.jpg" class="card-img-top card-image img-fluid" style="width: 100%; height:70%">
+              <div class="card-body">
+                <h6 class="card-title align">মিলক গ্রহে মানুষ</h6>
+                <h6 class="card-title align">অদ্রীশ বর্ধন</h6>
+                <h6 class="align1"><bold>Tk.280</bold></h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- .................... -->
+
+    <div class="outer">
+      <div class="animation "><h3 style="text-align:center; padding-top:7px;">Humor and Satire</h3></div>
+      <br>
+      <div class="container inner">
+        <div class="row ">
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3  ">
+            <div class="card " style="width: 180px; height:fit-content">
+              <img src="images/h1.jpg" class="card-img-top card-image img-fluid" style="width: 100%; height:70%">
+              <div class="card-body">
+                <h6 class="card-title align">A MAN CALLED OVE</h6>
+                <h6 class="card-title align">
+                  Fredrik Backman</h6>
+                <h6 class="align1"><bold>Tk.380</bold></h6>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="card " style="width: 180px; height:fit-content;">
+              <img src="images/h2.jpg" class="card-img-top card-image img-fluid" style="width: 100%; height:70%">
+              <div class="card-body">
+                <h6 class="card-title align">MAN vs BABY</h6>
+                <h6 class="card-title align">MATT COYNE</h6>
+                <h6 class="align1"><bold>Tk.400</bold></h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="card " style="width: 180px; height:fit-content">
+              <img src="images/h3.jpg" class="card-img-top card-image img-fluid" style="width: 100%; height:70%">
+              <div class="card-body">
+                <h6 class="card-title align">MY LIFE AS A GODDESS</h6>
+                <h6 class="card-title align">MINDY KALING</h6>
+                <h6 class="align1"><bold>Tk.580</bold></h6>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="card " style="width: 180px; height:fit-content">
+              <img src="images/h4.jpg" class="card-img-top card-image img-fluid" style="width: 100%; height:70%">
+              <div class="card-body">
+                <h6 class="card-title align">দুধসায়রের দ্বীপ</h6>
+                <h6 class="card-title align">শীর্ষেন্দু মুখোপাধ্যায়</h6>
+                <h6 class="align1"><bold>Tk.280</bold></h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- .................... -->
+
+    <div class="outer">
+      <div class="animation"><h3 style="text-align:center; padding-top:7px">Action and Adventure</h3></div>
+      <br>
+      <div class="container inner">
+        <div class="row ">
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3  ">
+            <div class="card " style="width: 180px; height:fit-content">
+              <img src="images/a1.jpg" class="card-img-top card-image img-fluid" style="width: 100%; height:70%">
+              <div class="card-body">
+                <h6 class="card-title align">সুজন হরবোলা</h6>
+                <h6 class="card-title align">সত্যজিৎ রায়</h6>
+                <h6 class="align1"><bold>Tk.480</bold></h6>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="card " style="width: 180px; height:fit-content;">
+              <img src="images/a2.jpg" class="card-img-top card-image img-fluid" style="width: 100%; height:233px;">
+              <div class="card-body">
+                <h6 class="card-title align">শার্লক হোমস সমগ্র</h6>
+                <h6 class="card-title align">স্যার অর্থার কোনান ডয়েল</h6>
+                <h6 class="align1"><bold>Tk.280</bold></h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="card " style="width: 180px; height:fit-content">
+              <img src="images/a3.jpg" class="card-img-top card-image img-fluid" style="width: 100%; height:218px">
+              <div class="card-body">
+                <h6 class="card-title align">THE PRINCESS WILL SAVE YOU</h6>
+                <h6 class="card-title align">SARAH HENNING</h6>
+                <h6 class="align1"><bold>Tk.280</bold></h6>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="card " style="width: 180px; height:fit-content">
+              <img src="images/a4.jpg" class="card-img-top card-image img-fluid" style="width: 100%; height:230px">
+              <div class="card-body">
+                <h6 class="card-title align">ORIGIN</h6>
+                <h6 class="card-title align">DAN BROWN</h6>
+                <h6 class="align1"><bold>Tk.300</bold></h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <br>
+
+
+    <!-- footer -->
+
+    <footer>
+      <div class="outer_footer">
+       <div class="inner_footer" style="border-right:1px solid gray ;"><p style="text-align:center">Ever wanted to buy a book but could not because it was too expensive? worry not! because The Bookworm is here!  Bookworm team is committed to bring to you all kinds of best books at the minimal prices ever seen anywhere. Yes, we are literally giving you away a steal.</p>
+        </div>
+       <div class="inner_footer">
+        <h1>Our Contacts</h1>
+        <p>Name: Bookworm</p>
+        <p>Mobile Number: 01782234730</p>
+        <p>Email: bookworm@gmail.com</p>
+       </div>
+      </div>
+      
+    </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
